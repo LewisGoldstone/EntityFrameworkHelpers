@@ -232,7 +232,7 @@ public class PaginatedListTests
     }
 
     [Fact]
-    public void CreateFromOtherData_WhenDataCountIsNotEqual_ShouldThrowException()
+    public void CopyMetaData_WhenDataCountIsNotEqual_ShouldThrowException()
     {
         // Arrange
         List<dynamic> paginatedListData = new()
@@ -256,7 +256,7 @@ public class PaginatedListTests
     }
 
     [Fact]
-    public void CreateFromOtherData_ShouldCreatePaginatedList()
+    public void CopyMetaData_ShouldCreatePaginatedList()
     {
         // Arrange
         List<dynamic> paginatedListData = new()
