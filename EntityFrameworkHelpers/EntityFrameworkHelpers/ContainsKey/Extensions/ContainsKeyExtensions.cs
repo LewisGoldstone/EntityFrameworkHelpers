@@ -19,7 +19,7 @@ public static class ContainsKeyExtensions
     /// Value = PaginatedList of entities
     /// </summary>
     /// <remarks>
-    /// Entity must be configured within context using RegisterPaginatedRow
+    /// Entity must be configured within context using RegisterHelpers
     /// </remarks>
     /// <typeparam name="TEntity">Our entity</typeparam>
     /// <typeparam name="TKey">Composite key</typeparam>
@@ -27,7 +27,7 @@ public static class ContainsKeyExtensions
     /// <param name="containKeys">Key values to query against</param>
     /// <param name="groupBy">Group by logic</param>
     /// <param name="orderBy">Column that'll be unique amongst a group to order by against</param>
-    /// <param name="filters">Any filtering (occurs prior to pagination)</param>
+    /// <param name="filters">Any filtering</param>
     /// <param name="includes">LINQ includes on TEntity</param>
     /// <param name="pageNumber">Page number</param>
     /// <param name="pageSize">Page size</param>

@@ -21,11 +21,11 @@ public class SqlFilter<TEntity>
         };
     }
 
-    internal string Column { get; init; } = "";
+    public string Column { get; init; } = "";
 
-    internal string Operator { get; init; } = "";
+    public string Operator { get; init; } = "";
 
-    internal object Value { get; init; } = "";
+    public object Value { get; init; } = "";
 
     private static object FormatSqlValue(object? value)
     {
