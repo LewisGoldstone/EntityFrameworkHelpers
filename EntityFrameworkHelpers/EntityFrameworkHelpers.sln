@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36915.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHelpers", "EntityFrameworkHelpers\EntityFrameworkHelpers.csproj", "{0C928AC2-2DAD-4242-8EFF-AE61E44A13CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHelpers.Tests", "EntityFrameworkHelpers.Tests\EntityFrameworkHelpers.Tests.csproj", "{7F765D81-449C-404C-9E49-B73A63B46E49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C928AC2-2DAD-4242-8EFF-AE61E44A13CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C928AC2-2DAD-4242-8EFF-AE61E44A13CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C928AC2-2DAD-4242-8EFF-AE61E44A13CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F765D81-449C-404C-9E49-B73A63B46E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F765D81-449C-404C-9E49-B73A63B46E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F765D81-449C-404C-9E49-B73A63B46E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F765D81-449C-404C-9E49-B73A63B46E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

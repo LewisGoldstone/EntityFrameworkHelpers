@@ -2,7 +2,7 @@
 
 public class PaginatedList<T>
 {
-    public const int DefaultPageSize = 50;
+    internal const int DefaultPageSize = 50;
 
     private const string UnequalDataCountExceptionMessage = "Data count must be equal";
 
@@ -78,7 +78,7 @@ public class PaginatedList<T>
     /// <param name="paginatedList">Existing PaginatedList object for pagination meta data</param>
     /// <param name="data">Data collection to create new PaginatedList object with</param>
     /// <returns>PaginatedList</returns>
-    internal static PaginatedList<T> CopyMetaData<TOther>(PaginatedList<TOther> paginatedList, IEnumerable<T> data)
+    public static PaginatedList<T> CopyMetaData<TOther>(PaginatedList<TOther> paginatedList, IEnumerable<T> data)
     {
         if (paginatedList.Data.Count != data.Count())
             throw new InvalidOperationException(UnequalDataCountExceptionMessage);
