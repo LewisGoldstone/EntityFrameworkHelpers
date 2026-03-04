@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHelpers", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHelpers.Tests", "EntityFrameworkHelpers.Tests\EntityFrameworkHelpers.Tests.csproj", "{7F765D81-449C-404C-9E49-B73A63B46E49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHelpers.Utils", "EntityFrameworkHelpers.Utils\EntityFrameworkHelpers.Utils.csproj", "{13B96DDF-89D3-49BB-B0B2-8210F10415F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F765D81-449C-404C-9E49-B73A63B46E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F765D81-449C-404C-9E49-B73A63B46E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F765D81-449C-404C-9E49-B73A63B46E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B96DDF-89D3-49BB-B0B2-8210F10415F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B96DDF-89D3-49BB-B0B2-8210F10415F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B96DDF-89D3-49BB-B0B2-8210F10415F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B96DDF-89D3-49BB-B0B2-8210F10415F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
